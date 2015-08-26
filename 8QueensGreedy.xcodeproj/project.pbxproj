@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1A3CDD431B8B571A00A3A78C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CDD421B8B571A00A3A78C /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		1A3CDD3D1B8B571A00A3A78C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A3CDD3F1B8B571A00A3A78C /* 8QueensPruning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8QueensPruning; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A3CDD421B8B571A00A3A78C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1A3CDD3F1B8B571A00A3A78C /* 8QueensGreedy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8QueensGreedy; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A89A97A1B8E2AE10078180D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +37,7 @@
 		1A3CDD361B8B571A00A3A78C = {
 			isa = PBXGroup;
 			children = (
-				1A3CDD411B8B571A00A3A78C /* 8QueensPruning */,
+				1A89A9791B8E2AE10078180D /* 8QueensGreedy */,
 				1A3CDD401B8B571A00A3A78C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +45,25 @@
 		1A3CDD401B8B571A00A3A78C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A3CDD3F1B8B571A00A3A78C /* 8QueensPruning */,
+				1A3CDD3F1B8B571A00A3A78C /* 8QueensGreedy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A3CDD411B8B571A00A3A78C /* 8QueensPruning */ = {
+		1A89A9791B8E2AE10078180D /* 8QueensGreedy */ = {
 			isa = PBXGroup;
 			children = (
-				1A3CDD421B8B571A00A3A78C /* main.cpp */,
+				1A89A97A1B8E2AE10078180D /* main.cpp */,
 			);
-			path = 8QueensPruning;
+			path = 8QueensGreedy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A3CDD3E1B8B571A00A3A78C /* 8QueensPruning */ = {
+		1A3CDD3E1B8B571A00A3A78C /* 8QueensGreedy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A3CDD461B8B571A00A3A78C /* Build configuration list for PBXNativeTarget "8QueensPruning" */;
+			buildConfigurationList = 1A3CDD461B8B571A00A3A78C /* Build configuration list for PBXNativeTarget "8QueensGreedy" */;
 			buildPhases = (
 				1A3CDD3B1B8B571A00A3A78C /* Sources */,
 				1A3CDD3C1B8B571A00A3A78C /* Frameworks */,
@@ -77,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = 8QueensPruning;
+			name = 8QueensGreedy;
 			productName = 8QueensPruning;
-			productReference = 1A3CDD3F1B8B571A00A3A78C /* 8QueensPruning */;
+			productReference = 1A3CDD3F1B8B571A00A3A78C /* 8QueensGreedy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A3CDD3A1B8B571A00A3A78C /* Build configuration list for PBXProject "8QueensPruning" */;
+			buildConfigurationList = 1A3CDD3A1B8B571A00A3A78C /* Build configuration list for PBXProject "8QueensGreedy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +104,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A3CDD3E1B8B571A00A3A78C /* 8QueensPruning */,
+				1A3CDD3E1B8B571A00A3A78C /* 8QueensGreedy */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +114,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3CDD431B8B571A00A3A78C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,21 +200,21 @@
 		1A3CDD471B8B571A00A3A78C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 8QueensGreedy;
 			};
 			name = Debug;
 		};
 		1A3CDD481B8B571A00A3A78C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 8QueensGreedy;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A3CDD3A1B8B571A00A3A78C /* Build configuration list for PBXProject "8QueensPruning" */ = {
+		1A3CDD3A1B8B571A00A3A78C /* Build configuration list for PBXProject "8QueensGreedy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A3CDD441B8B571A00A3A78C /* Debug */,
@@ -228,13 +223,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A3CDD461B8B571A00A3A78C /* Build configuration list for PBXNativeTarget "8QueensPruning" */ = {
+		1A3CDD461B8B571A00A3A78C /* Build configuration list for PBXNativeTarget "8QueensGreedy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A3CDD471B8B571A00A3A78C /* Debug */,
 				1A3CDD481B8B571A00A3A78C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
